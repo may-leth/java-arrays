@@ -1,3 +1,5 @@
+import java.util.Scanner;
+
 public class IceCream {
     public static void main(String[] args) {
         
@@ -21,6 +23,16 @@ public class IceCream {
 
             ¡Listo, tenemos tu orden! Acércate al mostrador y Robotina te entregará tu helado
         */
+        Scanner scanner = new Scanner(System.in);
+
+        System.out.println("Bienvenida a nuestra heladería vegana 'MundoFeliz'");
+        System.out.println("¿Cuántas bolas de helado quieres?: ");
+        int iceCreamScoops = scanner.nextInt();
+
+        String iceCreamFlavor = scanner.nextLine();
+        System.out.println();
+
+
 
         // La cantidad y los sabores escoge el usuario
 
